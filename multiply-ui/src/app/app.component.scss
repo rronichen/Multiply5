@@ -1,0 +1,10 @@
+.container { max-width: 480px; margin: 80px auto; font-family: sans-serif; }
+.input-row { display: flex; gap: 8px; margin-bottom: 16px; }
+input { flex: 1; padding: 8px; font-size: 16px; }
+button { padding: 8px 16px; font-size: 16px; cursor: pointer; }
+button:disabled { opacity: 0.5; cursor: default; }
+.result { font-size: 18px; font-weight: bold; }
+.yes { color: green; }
+.no { color: red; }
+.error { color: darkred; }
+.rate-limit { color: darkorange; font-size: 16px; }
